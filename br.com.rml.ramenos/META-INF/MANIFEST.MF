@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Chat4Eclipse
+Bundle-SymbolicName: br.com.rml.ramenos;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: chat4eclipse.Activator
+Bundle-Vendor: SaffronR - Rajgopal V
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.views.properties.tabbed
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/ramenos-0.0.1-SNAPSHOT.jar,
+ lib/groovy-all-2.3.3.jar,
+ lib/gson-2.2.4.jar,
+ lib/jna-4.1.0.jar
